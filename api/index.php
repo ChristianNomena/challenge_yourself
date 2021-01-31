@@ -10,7 +10,7 @@
             $success = FALSE;
             $message = "This will contain a feedback of the operation";
 
-            require_once("./Operation/registerUtilisateur.php");
+            require_once("./Operation/register_utilisateur.php");
 
             echo json_encode([
                 "success" => $success,
@@ -23,7 +23,7 @@
             $success = FALSE;
             $message = "This will contain a feedback of the operation";
 
-            require_once("./Operation/loginUtilisateur.php");
+            require_once("./Operation/login_utilisateur.php");
 
             echo json_encode([
                 "success" => $success,
